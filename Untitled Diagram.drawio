@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T06:37:16.432Z" agent="5.0 (Windows)" etag="fTAgLTVC8p2NlBAFSPTF" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-27T06:52:03.548Z" agent="5.0 (Windows)" etag="kiLAznwdoszuC1BYYrSV" version="15.5.9" type="github">
   <diagram id="apy8Ngh781oBLHAfVLGE" name="Page-1">
-    <mxGraphModel dx="2076" dy="1092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="865" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,29 +10,41 @@
         <mxCell id="m64D21JxlKDrZVXCHpGl-2" value="&lt;div&gt;Asistent&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="190" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="m64D21JxlKDrZVXCHpGl-3" value="Recepcni" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="m64D21JxlKDrZVXCHpGl-3" value="Recepční" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="310" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="m64D21JxlKDrZVXCHpGl-4" value="Herec" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="420" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="m64D21JxlKDrZVXCHpGl-5" value="Uzivatel" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="520" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="m64D21JxlKDrZVXCHpGl-6" value="Filmovy stab" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="630" width="30" height="60" as="geometry" />
+        <mxCell id="m64D21JxlKDrZVXCHpGl-6" value="Filmový štáb" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="410" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m64D21JxlKDrZVXCHpGl-7" value="Technik" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="740" width="30" height="60" as="geometry" />
+          <mxGeometry x="70" y="500" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m64D21JxlKDrZVXCHpGl-9" value="Auto-opravar" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="850" width="30" height="60" as="geometry" />
+          <mxGeometry x="70" y="610" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="m64D21JxlKDrZVXCHpGl-10" value="Ridic" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="970" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="m64D21JxlKDrZVXCHpGl-11" value="IS pujcovny automobilu filmovym stabum" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="m64D21JxlKDrZVXCHpGl-11" value="IS půjčovny vozidel filmovým štábům" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="280" y="80" width="510" height="910" as="geometry" />
+        </mxCell>
+        <mxCell id="m64D21JxlKDrZVXCHpGl-13" value="UC001: Zjištění, zda-li je vozidlo k dispozici" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="m64D21JxlKDrZVXCHpGl-11">
+          <mxGeometry x="40" y="50" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m64D21JxlKDrZVXCHpGl-15" value="UC002: Založení rezervace" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="m64D21JxlKDrZVXCHpGl-11">
+          <mxGeometry x="40" y="120" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m64D21JxlKDrZVXCHpGl-17" value="UC003: Vložení časového údaje o rezervaci" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="m64D21JxlKDrZVXCHpGl-11">
+          <mxGeometry x="40" y="190" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m64D21JxlKDrZVXCHpGl-19" value="UC004: Vložení štábu, který si vozidlo rezervoval" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="m64D21JxlKDrZVXCHpGl-11">
+          <mxGeometry x="40" y="260" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m64D21JxlKDrZVXCHpGl-21" value="UC005: Schválení rezervace" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="m64D21JxlKDrZVXCHpGl-11">
+          <mxGeometry x="210" y="60" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m64D21JxlKDrZVXCHpGl-23" value="UC006: Zamítnutí rezervace" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="m64D21JxlKDrZVXCHpGl-11">
+          <mxGeometry x="210" y="130" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m64D21JxlKDrZVXCHpGl-29" value="&lt;div&gt;Uživatel&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="710" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
