@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T06:36:07.470Z" agent="5.0 (Windows)" etag="0_bl8nxiXMiY74dA-s2b" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-27T06:37:16.432Z" agent="5.0 (Windows)" etag="fTAgLTVC8p2NlBAFSPTF" version="15.5.9" type="github">
   <diagram id="apy8Ngh781oBLHAfVLGE" name="Page-1">
-    <mxGraphModel dx="1038" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2076" dy="1092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,6 +30,9 @@
         </mxCell>
         <mxCell id="m64D21JxlKDrZVXCHpGl-10" value="Ridic" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="970" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m64D21JxlKDrZVXCHpGl-11" value="IS pujcovny automobilu filmovym stabum" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="510" height="910" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
